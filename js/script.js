@@ -651,7 +651,7 @@ function refreshMap(newDistricts){
 	newDistricts.forEach(function(d,i) {
 		d3.json('https://cdn.ons.gov.uk/assets/topojson/lsoa_by_lad/topo_' + d + '.json', function(error, distData) {
 
-			d3.csv('data/Cut/' + d + '.csv', function(error, csvData) {
+			d3.csv('data/cut/' + d + '.csv', function(error, csvData) {
 
 			  buildDataInView(d,csvData);
 			  topoLayer[d] = new L.TopoJSON();
@@ -710,7 +710,7 @@ function addRemoveAreas(oldDistricts, newDistricts) {
 
 			//console.log('https://cdn.ons.gov.uk/assets/topojson/msoa_by_lad/topo_' + d + '.json');
 
-			d3.csv('data/Cut/' + d + '.csv', function(error, csvData) {
+			d3.csv('data/cut/' + d + '.csv', function(error, csvData) {
 
 			  buildDataInView(d,csvData);
 
