@@ -1,0 +1,13 @@
+{"ons":{
+"varlabel": ["Lower quartile house price"],
+"varcolour": ["#8c510a","#d8b365","#f6e8c3","#f5f5f5","#c7eae5","#5ab4ac","#01665e"],
+"varname": ["All","0to14","15to24","25to49","50to64","65plus"],
+"varload": ["All","0to14","15to24","25to49","50to64","65plus"],
+"varunit":["%"],
+"varprefix":["","","",""],
+"breaks":[[-0.5,-0.35,-0.085, -0.038, 0.038, 0.085, 0.35,0.5]],
+"average":[5000000],
+"averagelabel":"",
+"centre":[50.8625574, -1.2463228],
+"zoom":12
+}}
